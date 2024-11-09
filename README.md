@@ -17,7 +17,11 @@ Use python to convert pdf to word
     Fill in the folder where your pdf is located, and fill in the folder where you want to store your word.
     Run the program, then you will find the word in the output_folder.  
     2.2 __Use the shell__  
-    In this way, you need to use shell to pass in the parameters. You can get help information by using this sentence:
+    In this way, you need to use shell to pass in the parameters. You can run the program by the follow sentence.  
+    ```python
+    python .\pdf_word.py [input_folder] [ouput_folder]
+    ```
+    You can get help information by using this sentence:
     ```shell
     python .\pdf_word.py -h
     ```
